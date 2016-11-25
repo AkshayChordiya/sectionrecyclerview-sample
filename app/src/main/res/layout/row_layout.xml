@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/material_component_lists_three_line_height"
+    android:layout_marginTop="@dimen/material_component_lists_icon_left_padding"
+    android:background="?selectableItemBackground">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:paddingLeft="@dimen/material_component_lists_icon_left_padding"
+        android:paddingStart="@dimen/material_component_lists_icon_left_padding"
+        app:srcCompat="@drawable/ic_avatar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/material_component_lists_text_left_padding"
+        android:paddingStart="@dimen/material_component_lists_text_left_padding"
+        android:layout_marginBottom="@dimen/material_component_lists_text_padding_bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="18sp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            tools:text="Brunch this weekend?"/>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:alpha="0.57"
+            android:textSize="16sp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            tools:text="I'll be in your near by doing errands. Do you want to grab"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
