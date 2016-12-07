@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeHeader">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>This Month</item>
+        <item>Older</item>
+    </string-array>
+</resources>
